@@ -45,10 +45,98 @@
   <body>
     <div class="page">
       <header class="header">
-        <p>lololol thisis an example</p>
+        <nav class="nav__logo">
+          <img
+            src="/images/logo_coffee_shop.svg"
+            alt="practicum coffeshop logo"
+            class="logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#menu-id">Menu</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#recipes-id">Recipes</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#book-a-table-id">Book a Table</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__title__wrapper">
+          <div>
+            <h1 class="header__title">
+              <span class="header__span-accent"> Specialty coffee</span><br />
+              in the Practicum Library
+            </h1>
+            <p class="header__description">
+              Welcome to our study zone! We've got the coffee to energize you
+              and the cozy vibes to help you get creative.
+            </p>
+          </div>
+
+          <img
+            src="./images/inside_coffee_shop.png"
+            alt="Illustration 'Inside the coffeshop'"
+            class="header__image"
+          />
+        </div>
+
+        <div class="header__footer">
+          <ul class="header__footer_list">
+            <li>Hours</li>
+            <li class="header__footer__list_item">
+              Monday-Friday: (10:00 - 19:00)
+            </li>
+            <li class="header__footer__list_item">
+              Saturday-Sunday: (11:00 - 18:00)
+            </li>
+          </ul>
+          <p class="header__address">
+            200 Success Avenue, The Town of Practicum
+          </p>
+        </div>
       </header>
       <main class="content">
-        <section class="recipes"></section>
+        <section class="recipes">
+          <h1 class="recipes__title">Recipes</h1>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+          <div class="recipe__videos">
+            <div class="recipe__iframe">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div class="recipe__video-caption">
+                <p>Aeropress recipe</p>
+                <p>~5min</p>
+                <p>French press recipe</p>
+                <p>~15min</p>
+              </div>
+            </div>
+          </div>
+        </section>
         <section class="menu"></section>
         <section class="reservation"></section>
         <section class="about"></section>
