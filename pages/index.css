@@ -26,7 +26,7 @@ body {
   background-size: cover;
 }
 
-.nav__logo {
+.nav {
   display: flex;
   flex-direction: row;
   position: relative;
