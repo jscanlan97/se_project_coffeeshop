@@ -182,6 +182,7 @@ body {
 }
 
 .recipe__iframe {
+  border: 0;
 }
 .recipe__videos {
   margin-left: auto;
