@@ -55,7 +55,7 @@ body {
 
   line-height: 20px;
 }
-.header__title__wrapper {
+.header__title-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -142,7 +142,7 @@ body {
   color: #838383;
   list-style-type: none;
 }
-.header__footer__list_item {
+.header__footer__list-item {
 }
 .recipes {
   background-image: url("../images/background_recipes.svg");
