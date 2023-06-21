@@ -188,7 +188,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.recipe__video-caption {
+.recipes__video-caption {
   color: white;
   display: flex;
   flex-direction: row;
