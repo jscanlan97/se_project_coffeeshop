@@ -291,7 +291,7 @@ body {
   height: 24px;
   width: 24px;
 }
-.checkbox__wrapper {
+.form__checkbox__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
