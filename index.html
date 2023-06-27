@@ -136,7 +136,7 @@
         <section class="menu" id="menu-id"></section>
         <section class="reservation" id="book-a-table-id">
           <div>
-            <h2 class="reservation__title reservation__form">Book a Table</h2>
+            <h2 class="reservation__title">Book a Table</h2>
             <form class="reservation__form">
               <fieldset class="form__fieldset">
                 <label class="form__label" for="name">Name*</label>
@@ -173,12 +173,16 @@
                   placeholder="email@email.com"
                 />
               </fieldset>
-              <button class="form__button">Book a table</button><br />
+              <div class="form__button__wrapper">
+                <button class="form__button">Book a table</button><br />
+              </div>
 
-              <input type="checkbox" id="terms" />
-              <label for="terms" class="form__label"
-                >I agree with the terms of use</label
-              >
+              <div class="checkbox__wrapper">
+                <input type="checkbox" id="terms" />
+                <label for="terms" class="form__label"
+                  >I agree with the terms of use</label
+                >
+              </div>
             </form>
           </div>
         </section>
