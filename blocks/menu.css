@@ -1,0 +1,14 @@
+.menu {
+  background-image: url("../images/background_menu.svg");
+  margin: auto;
+}
+.menu__title {
+  margin: 0;
+  max-width: 780px;
+  display: flex;
+  justify-content: center;
+}
+.menu__subtitle {
+  margin: 0;
+  max-width: 780px;
+}
