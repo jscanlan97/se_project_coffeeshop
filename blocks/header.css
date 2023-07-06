@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.header__page {
+.page {
   min-width: 1100px;
   max-width: 1600px;
   margin-right: auto;
