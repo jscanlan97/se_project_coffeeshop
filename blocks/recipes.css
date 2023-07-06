@@ -48,26 +48,3 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.reservation {
-  background-color: #d9e7ff;
-  background-image: url("../images/background_reservation.svg");
-  margin: auto;
-
-  min-height: 720px;
-  max-height: 800px;
-}
-.reservation__title {
-  text-align: center;
-  font-family: Inter;
-
-  font-style: normal;
-
-  font-weight: 500;
-
-  font-size: 44px;
-
-  line-height: 52px;
-  padding-top: 60px;
-  padding-bottom: 48px;
-  margin: 0;
-}
