@@ -21,6 +21,9 @@
   line-height: 52px;
   margin-bottom: 100px;
   margin-left: 80px;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
 }
 .recipes__subtitle {
   font-family: "Noto Serif";
@@ -33,6 +36,8 @@
 
   line-height: 30px;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .recipes__iframe {
