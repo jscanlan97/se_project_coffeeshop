@@ -19,10 +19,10 @@
   color: white;
 
   line-height: 52px;
-  margin-bottom: 100px;
+
   margin-left: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding-top: 60px;
 }
 .recipes__subtitle {
@@ -37,7 +37,8 @@
   line-height: 30px;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 80px;
 }
 
 .recipes__iframe {
@@ -46,10 +47,18 @@
 .recipes__videos {
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content: center;
+  gap: 24px 40px;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  margin-top: 80px;
 }
 .recipes__video-caption {
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
+  width: 480px;
 }

@@ -23,9 +23,7 @@ body {
 }
 
 .header__title-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  margin-top: 182px;
 }
 .header__title {
   font-family: "Inter";
@@ -93,8 +91,6 @@ body {
   z-index: 1;
 }
 .header__footer_list {
-  padding-left: 80px;
-
   margin: 0;
   font-family: "Inter";
 
@@ -110,4 +106,5 @@ body {
   list-style-type: none;
 }
 .header__footer__list-item {
+  margin-top: auto;
 }
